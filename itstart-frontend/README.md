@@ -1,10 +1,29 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+First, create vevn
+```bash
+python -m venv venv
+```
 
-First, run the development server:
+then install dependencies
+```cmd
+pip install -r requirements.txt
+```
+optional: populate db with your json file(must have JSON schema as in ./ITStart_API/seminars.json )
+```
+double click on "populate_db.bat"
+```
+then launch DRF API serer
+```
+double click on "runDRFserver.bat"
+```
+now you can manage your db at hostname/admin, credentials are at ./access.txt
+
+run the development frontend server in "itstart-frontend" directory :
 
 ```bash
+cd ./itstart-frontend
 npm run dev
 # or
 yarn dev
