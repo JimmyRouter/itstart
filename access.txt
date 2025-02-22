@@ -1,0 +1,4 @@
+DRF admin:
+
+ITSTART_admin
+e4r6egsSEC
